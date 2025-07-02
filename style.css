@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(-45deg, #34b3b3, #6fd8d8, #e1f5f5, #b2dfdf);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+/* Animation Keyframes */
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0;
+    /* padding: 20px; */
+    font-size: 3rem;
+    color: #1e4f4f
+}
+h2{
+    margin-bottom: 10px;
+    color: #135757;
+    font-size: 2rem;
+
+}
+
+form{
+    background-color: white;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    
+}
+
+form input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+   
+}
+
+form button{
+    width: 50%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #34b3b3;
+    padding: 10px;
+}
+
+form button:hover {
+    background-color: #2d9a9a;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: 5px;
+    border: 2px solid #34b3b3;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #b2dfdf;
+}
+
+.list, #sharelist{
+    list-style: none;
+    font-size: 1.2rem;
+    padding-left: 0;
+    text-align: left;
+    margin-top: 15px;
+
+}
+
+#total, #split{
+    margin-top: 15px;
+    color: #0d4444;
+    display: none;
+}
+
+.list li, #sharelist li{
+    background-color: #f7fafa;
+    border-left: 6px solid #34b3b3;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+.section{
+    text-align: center;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
